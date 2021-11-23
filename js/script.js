@@ -24,8 +24,8 @@ function setNewColour() {
   const newColor = `rgba(${getRandomColorChannel()}, ${getRandomColorChannel()}, ${getRandomColorChannel()}, 0.5)`;
   document.body.style.backgroundColor = newColor;
   document.getElementById('myButton').style.backgroundColor = newColor;
-  document.getElementById('colorBlock').style.backgroundColor = newColor;
-  document.getElementById('colorBlock').textContent = newColor;
+  document.getElementById('output').style.backgroundColor = newColor;
+  document.getElementById('output').textContent = newColor;
 }
 
 console.log(setNewColour());
