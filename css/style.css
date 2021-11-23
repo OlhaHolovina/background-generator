@@ -1,5 +1,5 @@
 body {
-    background: rgb(123, 45, 211);
+    background-color: rgba(123, 45, 211, 0.5);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 98vh;
