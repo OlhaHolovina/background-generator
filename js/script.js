@@ -28,8 +28,4 @@ function setNewColour() {
   document.getElementById('output').textContent = newColor;
 }
 
-console.log(setNewColour());
-console.log(setNewColour());
-console.log(setNewColour());
-
 document.getElementById('myButton').addEventListener('click', setNewColour);
